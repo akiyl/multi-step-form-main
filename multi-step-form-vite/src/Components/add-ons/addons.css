@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.addon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 450px;
+}
+label {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid hsl(229, 24%, 87%);
+  padding: 23px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.addons-main-content {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.addon-head {
+  margin-bottom: 25px;
+}
+.addon-head h1 {
+  font-size: 40px;
+}
+.add-on-page-handler {
+  display: flex;
+  justify-content: space-between;
+}
+.add-info {
+  display: grid;
+}
+.check-box input {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid hsl(206, 94%, 87%);
+}

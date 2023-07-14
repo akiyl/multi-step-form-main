@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input {
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px 10px;
+  border: 1px solid hsl(229, 24%, 87%);
+  font-weight: 700;
+}
+.info-page-head {
+  margin: 15px 0 0px 15px;
+}
+.info-head {
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+.info-head p {
+  margin: 5px;
+}
+.input-name {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+.info-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 480px;
+}
+.info-page-submit {
+  padding: 15px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  background-color: hsl(213, 96%, 18%);
+  border-style: none;
+  border: 1px solid;
+}

@@ -1,0 +1,32 @@
+.finishing-head h1 {
+  font-size: 40px;
+}
+.page-finish-main {
+  padding: 23px;
+  background: hsl(217, 100%, 97%);
+  border-radius: 12px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.pack-planes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finishing-container {
+  width: 450px;
+}
+.proceed-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.pack-info-price,
+.custum-plan {
+  display: flex;
+  justify-content: space-between;
+}
+.total-price {
+  display: flex;
+  justify-content: space-between;
+}

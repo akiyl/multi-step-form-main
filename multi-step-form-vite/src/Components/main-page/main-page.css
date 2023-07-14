@@ -1,0 +1,70 @@
+.contanier-main {
+  background-color: #fff;
+  width: 850px;
+  max-width: 1440px;
+  height: 550px;
+  border-radius: 0.8em;
+  padding: 25px;
+  display: flex;
+}
+.button-functioning {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-image: url(../images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 50px 30px;
+  border: 0.8em;
+}
+.button-functioning button {
+  padding: 7px 14px;
+  background-color: transparent;
+  border-radius: 50%;
+  /* border-color: white; */
+  border-style: none;
+  color: white;
+  border: 2px solid white;
+  font-size: 16px;
+  font-weight: 700;
+}
+a:hover .page {
+  background-color: #fff;
+  font-weight: 500;
+  color: #000;
+}
+a:focus .page {
+  background-color: #fff;
+  font-weight: 500;
+  color: #000;
+}
+a:active .page {
+  background-color: #fff;
+  font-weight: 500;
+  color: #000;
+}
+
+.page-toggle {
+  display: flex;
+  gap: 1em;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.anchor-wrapup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.marking-steps {
+  font-size: 14px;
+  font-weight: 500;
+}
+.page-toggle-text-info {
+  font: 18px;
+  font-weight: 500;
+}
